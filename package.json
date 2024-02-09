@@ -1,10 +1,9 @@
 {
-  "name": "cisa-saml-okta",
+  "name": "dhs-saml-okta-starter",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "OKTA SAML node.js typescript starter",
+  "author": "rahul.dongre@wasatchinfotech.com",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
@@ -22,7 +21,12 @@
   "dependencies": {
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
+    "@nestjs/passport": "^10.0.3",
     "@nestjs/platform-express": "^10.0.0",
+    "@node-saml/passport-saml": "^4.0.4",
+    "dotenv": "^16.4.1",
+    "hbs": "^4.2.0",
+    "passport": "^0.7.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1"
   },
