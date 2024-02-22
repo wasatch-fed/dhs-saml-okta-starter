@@ -47,3 +47,14 @@ $ docker compose up -d
 ## OKTA Authentication Process
 
   DHS OKTA will generate a 509 certificate with an entity Id and IDP entry point. Please ensure that the application callback URL is passed, as it will be called after a successful authentication request. A SAML response will then be generated with user information.
+
+
+## .env file
+
+  Create .env file in the project with following keys and provide valid information
+
+  SAML_SERVER_PUBLIC_CERT=<PLACEHOLDER>
+  SAML_SERVER_PRIVATE_KEY='<PLACEHOLDER>
+  OKTA_SAML_ENTRY_POINT=<PLACEHOLDER>
+  OKTA_SAML_ISSUER=<PLACEHOLDER>
+  OKTA_SAML_CALLBACK_URL=<PLACEHOLDER>
