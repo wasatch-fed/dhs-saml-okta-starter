@@ -43,3 +43,7 @@ $ docker compose up -d
   http://localhost:3000/auth/meta
 
   Make sure to add config folder in the root directory of project and store cert and private key, refer saml.strategy.ts
+
+## OKTA Authentication Process
+
+  DHS OKTA will generate a 509 certificate with an entity Id and IDP entry point. Please ensure that the application callback URL is passed, as it will be called after a successful authentication request. A SAML response will then be generated with user information.
