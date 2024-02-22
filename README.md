@@ -52,9 +52,19 @@ $ docker compose up -d
 ## .env file
 
   Create .env file in the project with following keys and provide valid information
-
+  ```
+  # public cert
   SAML_SERVER_PUBLIC_CERT=<PLACEHOLDER>
-  SAML_SERVER_PRIVATE_KEY='<PLACEHOLDER>
+  # private key
+  SAML_SERVER_PRIVATE_KEY=<PLACEHOLDER>
+  # entry point
   OKTA_SAML_ENTRY_POINT=<PLACEHOLDER>
+  # issuer
   OKTA_SAML_ISSUER=<PLACEHOLDER>
+  # app callback url
   OKTA_SAML_CALLBACK_URL=<PLACEHOLDER>
+```
+
+## Contact
+
+  info@wasatchinfotech.com
