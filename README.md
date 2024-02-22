@@ -68,3 +68,13 @@ $ docker compose up -d
 ## Contact
 
   info@wasatchinfotech.com
+
+## Screens
+
+  After starting the application navigate to http://localhost:3000/ will display page with login button.
+  
+  ![image](https://github.com/wasatch-fed/dhs-saml-okta-starter/assets/160953871/81bf3c4e-cccb-416e-8854-dd94291451f5)
+
+  Submit action should take to DHS SSO OKTA application for the authentication.
+
+  <img width="1459" alt="image" src="https://github.com/wasatch-fed/dhs-saml-okta-starter/assets/160953871/c7609198-afb7-43f4-9f49-924890acdeeb">
